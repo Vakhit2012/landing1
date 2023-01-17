@@ -1,0 +1,322 @@
+body {
+  margin: 0 ;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  
+}
+
+
+.wrapper {
+  background-color: #f4f4f4;
+  box-shadow: 0px 0 10px rgba(0,0,0, 0.3);
+
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 ;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #f4f4f4;
+
+}
+
+.image {
+  max-width: 60px;
+
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.nav-link {
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+.nav-link:hover {
+  color: orange;
+}
+
+li {
+  text-decoration: none;
+  list-style:none;
+}
+
+/* info */
+
+.info {
+  margin-top: -100px;
+  
+}
+.info-row {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.info-body {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 20px 0 ;
+}
+.image-info {
+
+  margin-top: 20px;
+}
+.info-text {
+  font-size: 16px;
+  margin: 20px 10px ;
+  
+}
+.fon_pages { 
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.btn {
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 20px 70px;
+  color:white;
+  font-weight: 500 ;
+  border: none ;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: coral;
+  transition: 0.8s ease-out;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255 ,165, 0 , 0.4);
+  opacity: 0.9;
+}
+.btn:hover { 
+  scale: 1.3;
+  opacity: 1;
+}
+
+
+/* menu */
+
+.menu {
+  background: url('../retro-living-room-interior-design.jpg') no-repeat center  ;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.menu-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin-top: -100px;
+  line-height: 1.6em;
+  color: #f4f4f4;
+  text-shadow: 0 0 10px black;
+}
+.menu-title {
+  font-size: 100px;
+}
+.menu-paragraph {
+  font-size: 40px;
+}
+
+
+/*main*/
+
+.main-main {
+  min-height: 100vh;
+
+}
+.main-title {
+  text-align: center;
+  font-size: 25px;
+}
+.image-main {
+  max-width: 300px;
+  
+}
+.main-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.main-body {
+  width: 25%;
+  border: 1px gray solid;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.main-img {
+  margin-bottom: 20px;
+
+}
+.image-main {
+  border-radius: 20px;
+}
+.main-sell {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.none-price {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+  font-size: 18px;
+}
+.main-star ul {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.main-star li {
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.main-star li:hover {
+  color: gold;
+}
+.button {
+  width: 100%;
+  padding:15px 0 ;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px gray solid;
+  color: gray;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.button:hover{
+  scale: 0.9;
+}
+.all-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* article */
+.article-main {
+  margin-top: 30px;
+  min-height: 30vh;
+}
+.article-body {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.info-left {
+  background-image: url(..//phone.png);
+  background-repeat: no-repeat;
+  background-position:right bottom;
+  width: 47%;
+  min-height: 30vh;
+  border-radius: 20px;
+  background-color: #EEF2F6;
+  padding: 15px;
+}
+.left-text-title {
+  color: gray;
+}
+
+.info-right {
+  background-image: url(..//home.jpg);
+  background-repeat: no-repeat;
+  background-position:right bottom;
+  width: 47%;
+  min-height: 30vh;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #EEF2F6;
+
+}
+.right-text-title {
+  color: gray;
+
+}
+.right-text-subtitle {
+  color: #333;
+}
+.article-btn {
+  min-width: 12vw;
+  padding:15px 0 ;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20px;
+  border:none;
+  color: gray;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.article-btn:hover {
+  scale: 0.9;
+}
+
+.footer {
+  min-height: 30vh;
+  background-color: #333;
+  
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-around;
+  color: #f4f4f4;
+  
+}
+.footer-text a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-text a:hover {
+  color: aqua;
+}
+
+.list-li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.list-li {
+  margin: 0;
+}
